@@ -1,0 +1,20 @@
+# Starter taxonomy only. Populate image and label directories with reviewed,
+# licensed examples before training. YOLO labels use zero-based class indexes.
+path: data/material_dataset
+train: images/train
+val: images/val
+
+names:
+  0: steel
+  1: rubber
+  2: PET
+  3: HDPE
+  4: PVC
+  5: LDPE
+  6: PP
+  7: PS
+  8: mixed_plastic
+  9: glass
+  10: paper_cardboard
+  11: unknown
+

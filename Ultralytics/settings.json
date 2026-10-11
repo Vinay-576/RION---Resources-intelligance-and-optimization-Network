@@ -1,0 +1,19 @@
+{
+  "settings_version": "0.0.8",
+  "datasets_dir": "C:\\Users\\VINAY KUMAR\\Documents\\datasets",
+  "weights_dir": "C:\\Users\\VINAY KUMAR\\Documents\\Codex\\weights",
+  "runs_dir": "C:\\Users\\VINAY KUMAR\\Documents\\Codex\\runs",
+  "uuid": "18243d1fc0d51ebe6a34bd0a99b944ee44855b7a84432f67deedffbf0515ee0d",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "mlflow": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}

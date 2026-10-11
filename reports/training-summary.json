@@ -1,0 +1,56 @@
+{
+  "created_at_utc": "2026-10-10T19:19:08.161521+00:00",
+  "dataset": {
+    "kaggle_slug": "larmkaixian/malaysian-trash-annotation/versions/4",
+    "license": "CC BY 4.0",
+    "images": 1532,
+    "annotations": 3793,
+    "split_images": {
+      "train": 1072,
+      "val": 306,
+      "test": 154
+    }
+  },
+  "training": {
+    "base_model": "yolo26n.pt",
+    "command": "python scripts/train_yolo.py --data data/kaggle_malaysian.yaml --model yolo26n.pt --epochs 5 --imgsz 320 --batch 4 --device cpu",
+    "epochs": 5,
+    "image_size": 320,
+    "batch": 4,
+    "device": "cpu",
+    "class_names": [
+      "m_composite",
+      "m_glass",
+      "m_metal",
+      "m_paper",
+      "m_plastic_film",
+      "m_plastic_rigid",
+      "s_cigarette_butt",
+      "s_e_waste",
+      "s_hazardous",
+      "s_ikat_tepi",
+      "s_litter",
+      "s_organic",
+      "s_other",
+      "s_textile"
+    ]
+  },
+  "checkpoint": {
+    "path": "models/material-yolo.pt",
+    "size_bytes": 5421125,
+    "sha256": "30e388f9e965e96a9c78ff65e2177a0d411cf58b5bc4f1a24edb43f68688e1d2"
+  },
+  "software": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "torch": "2.14.1+cpu",
+    "ultralytics": "8.4.175"
+  },
+  "test_metrics": {
+    "precision": 0.44600644538415385,
+    "recall": 0.20121063230758152,
+    "map50": 0.17724601540451193,
+    "map50_95": 0.1399513838908557
+  },
+  "test_report": "reports/model-evaluation.json"
+}

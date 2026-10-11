@@ -1,0 +1,8 @@
+aws_region                  = "ap-south-1"
+app_domain_name             = "rion.example.com"
+api_domain_name             = "api.rion.example.com"
+route53_zone_name           = "example.com"
+api_image_uri               = "123456789012.dkr.ecr.ap-south-1.amazonaws.com/rion-api:replace-with-immutable-tag"
+db_multi_az                 = false
+db_deletion_protection      = true
+ecs_desired_count           = 1

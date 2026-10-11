@@ -1,0 +1,29 @@
+{
+  "checkpoint": "material-yolo.pt",
+  "data_config": "kaggle_malaysian.yaml",
+  "split": "test",
+  "image_size": 320,
+  "device": "cpu",
+  "metrics": {
+    "precision": 0.44600644538415385,
+    "recall": 0.20121063230758152,
+    "map50": 0.17724601540451193,
+    "map50_95": 0.1399513838908557
+  },
+  "per_class_map50_95": {
+    "m_composite": 0.22015952780742404,
+    "m_glass": 0.04558725090579711,
+    "m_metal": 0.08130333146571618,
+    "m_paper": 0.31630932468696005,
+    "m_plastic_film": 0.09831491308146903,
+    "m_plastic_rigid": 0.46194974991017623,
+    "s_cigarette_butt": 0.04732209411602402,
+    "s_e_waste": 0.0,
+    "s_hazardous": 0.0,
+    "s_ikat_tepi": 0.0,
+    "s_litter": 0.22522020600895026,
+    "s_organic": 0.12945031610074012,
+    "s_other": 0.1285151603887229,
+    "s_textile": 0.2051875
+  }
+}

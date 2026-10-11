@@ -1,0 +1,45 @@
+{
+  "source_dataset": "larmkaixian/malaysian-trash-annotation",
+  "license": "CC BY 4.0",
+  "source_format": "COCO bounding boxes",
+  "converted_format": "YOLO detection boxes",
+  "images_per_split": {
+    "train": 1072,
+    "val": 306,
+    "test": 154
+  },
+  "total_images": 1532,
+  "non_empty_classes": [
+    "m_composite",
+    "m_glass",
+    "m_metal",
+    "m_paper",
+    "m_plastic_film",
+    "m_plastic_rigid",
+    "s_cigarette_butt",
+    "s_e_waste",
+    "s_hazardous",
+    "s_ikat_tepi",
+    "s_litter",
+    "s_organic",
+    "s_other",
+    "s_textile"
+  ],
+  "annotations_per_class": {
+    "m_composite": 351,
+    "m_glass": 35,
+    "m_metal": 123,
+    "m_paper": 502,
+    "m_plastic_film": 582,
+    "m_plastic_rigid": 970,
+    "s_cigarette_butt": 294,
+    "s_e_waste": 9,
+    "s_hazardous": 13,
+    "s_ikat_tepi": 8,
+    "s_litter": 478,
+    "s_organic": 233,
+    "s_other": 152,
+    "s_textile": 43
+  },
+  "total_annotations": 3793
+}

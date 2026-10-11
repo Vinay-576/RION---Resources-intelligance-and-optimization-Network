@@ -1,0 +1,76 @@
+{
+  "dataset": "sumn2u/garbage-classification-v2/versions/8",
+  "license": "MIT as listed by Kaggle",
+  "source_root": "data/raw/kaggle/garbage-classification-v2/garbage-dataset",
+  "seed": 42,
+  "max_per_class": 900,
+  "source_counts": {
+    "battery": 944,
+    "biological": 997,
+    "cardboard": 1825,
+    "clothes": 5327,
+    "glass": 3061,
+    "metal": 1020,
+    "paper": 1680,
+    "plastic": 1984,
+    "shoes": 1977,
+    "trash": 947
+  },
+  "split_counts": {
+    "train": {
+      "battery": 630,
+      "biological": 630,
+      "cardboard": 630,
+      "clothes": 630,
+      "glass": 630,
+      "metal": 630,
+      "paper": 630,
+      "plastic": 630,
+      "shoes": 630,
+      "trash": 630
+    },
+    "val": {
+      "battery": 135,
+      "biological": 135,
+      "cardboard": 135,
+      "clothes": 135,
+      "glass": 135,
+      "metal": 135,
+      "paper": 135,
+      "plastic": 135,
+      "shoes": 135,
+      "trash": 135
+    },
+    "test": {
+      "battery": 135,
+      "biological": 135,
+      "cardboard": 135,
+      "clothes": 135,
+      "glass": 135,
+      "metal": 135,
+      "paper": 135,
+      "plastic": 135,
+      "shoes": 135,
+      "trash": 135
+    }
+  },
+  "split_totals": {
+    "train": 6300,
+    "val": 1350,
+    "test": 1350
+  },
+  "duplicates_removed": 0,
+  "conflicting_duplicate_labels_removed": 0,
+  "class_names": [
+    "battery",
+    "biological",
+    "cardboard",
+    "clothes",
+    "glass",
+    "metal",
+    "paper",
+    "plastic",
+    "shoes",
+    "trash"
+  ]
+}
